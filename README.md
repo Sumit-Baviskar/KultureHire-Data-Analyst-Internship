@@ -7,7 +7,6 @@ As a **Data Analyst Intern at KultureHire**, I worked on **data collection, clea
 # **Key Contributions**  
 
 ✅ **Data Cleaning & Transformation** – Processed raw datasets using **SQL & Python (Pandas, NumPy)** to ensure data accuracy.  
-
 ✅ **Exploratory Data Analysis (EDA)** – Identified trends, patterns, and outliers to extract actionable business insights.  
 ✅ **Interactive Dashboards** – Developed **Power BI visualizations** to track key performance metrics.  
 ✅ **Business Insights & Recommendations** – Provided data-backed strategies for optimizing business performance.  
