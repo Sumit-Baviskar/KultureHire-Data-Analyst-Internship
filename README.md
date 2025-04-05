@@ -32,14 +32,14 @@ This data-driven study contributes to the broader effort of aligning talent acqu
 
 To carry out this project efficiently and present results in a meaningful way, I utilized a variety of tools from the modern data analytics stack:
 
- - ### 📌 **Excel :** Microsoft Excel was used for initial data preprocessing and quick checks. It was also used to validate key statistical summaries and create pivot tables for exploratory review.
+ - #### 📌 **Excel :** Microsoft Excel was used for initial data preprocessing and quick checks. It was also used to validate key statistical summaries and create pivot tables for exploratory review.
 
- - ### 📌 **Python :** Used for data cleaning, manipulation, and exploratory data analysis (EDA). Libraries such as `Pandas`, `NumPy`, `Matplotlib`, and `Seaborn` were employed to uncover patterns and prepare data for visualization.
+ - #### 📌 **Python :** Used for data cleaning, manipulation, and exploratory data analysis (EDA). Libraries such as `Pandas`, `NumPy`, `Matplotlib`, and `Seaborn` were employed to uncover patterns and prepare data for visualization.
 
- - ### 📌 **Power BI :** Power BI was used to create **interactive dashboards** that made the insights easily digestible for stakeholders. The tool allowed for dynamic filtering, storytelling, and visual summaries of complex datasets.
+ - #### 📌 **Power BI :** Power BI was used to create **interactive dashboards** that made the insights easily digestible for stakeholders. The tool allowed for dynamic filtering, storytelling, and visual summaries of complex datasets.
 
 
- - ### 📌 **MySQL:** MySQL queries were used to extract meaningful segments of data, group and filter responses based on categorical variables, and structure the data for analysis and visualization.
+ - #### 📌 **MySQL:** MySQL queries were used to extract meaningful segments of data, group and filter responses based on categorical variables, and structure the data for analysis and visualization.
 
 ------
 
@@ -211,29 +211,30 @@ With the cleaned dataset in place, I used Excel to perform exploratory analysis.
 
 **1. What industries are Gen-Z most interested in pursuing careers in?**
 
-### **Pivot Table :**
+### 📊 **Pivot Table :**
 ![Image](https://github.com/user-attachments/assets/f733ab46-3145-4d6e-a72e-b37657721b5b)
 
 **2. What are the top factors influencing Gen-Z’s career choices?**
 
-### **Pivot Table :**
+### 📊 **Pivot Table :**
 ![Image](https://github.com/user-attachments/assets/af92f088-2e78-4112-8867-63490a3a017c)
 
 
 **3. What is the desired work environment for Gen-Z? (e.g., remote, hybrid, in-office)**
 
-### **Pivot Table :**
+### 📊 **Pivot Table :**
 ![Image](https://github.com/user-attachments/assets/7285f2af-5bd2-4bf0-9e74-971d00e41ad6)
 
 **4. How do financial goals, such as salary and benefits, impact career aspirations among Gen-Z?**
 
-### **Pivot Table :**
+### 📊 **Pivot Table :**
 ![Image](https://github.com/user-attachments/assets/dfc5b92a-b1c2-4103-bb1e-32db1f87204b)
 
 **5. What role do personal values and social impact play in career choices for Gen-Z?**
 
 
-### **Pivot Table :**
+### 📊 **Pivot Table :**
+
 ![Image](https://github.com/user-attachments/assets/0761774d-3c11-4145-8290-423a160ca1e1)
 
 
@@ -305,6 +306,7 @@ ORDER BY Count DESC;
 
 # 📊 **6. Executive Dashboard in Excel :**
 
+This Excel dashboard provides a concise overview of Gen-Z’s career aspirations and workforce trends. Designed for non-technical stakeholders, it highlights key metrics and insights through simplified visuals and clearly labeled sections. The dashboard showcases top career sectors, preferred work environments, and influencing factors such as salary expectations and personal values. Interactive charts illustrate relationships between variables (e.g., gender vs. work preference) to support informed decision-making at a glance.
 An executive summary dashboard was developed in Excel, aimed at non-technical stakeholders. It featured:
 - Key metrics and KPIs (e.g., top career sectors, average salary expectations)
 - Simplified visuals for quick review
@@ -322,7 +324,7 @@ An executive summary dashboard was developed in Excel, aimed at non-technical st
 ![Image](https://github.com/user-attachments/assets/ae6511b0-4783-481a-816b-edd7aac6f1d5)
 
 ---
-### **Insights (Excel Dashboards):**
+## 🔹 **Insights (Excel Dashboards):**
 
 
 
