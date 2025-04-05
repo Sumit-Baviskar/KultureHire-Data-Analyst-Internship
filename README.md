@@ -32,18 +32,14 @@ This data-driven study contributes to the broader effort of aligning talent acqu
 
 To carry out this project efficiently and present results in a meaningful way, I utilized a variety of tools from the modern data analytics stack:
 
-## 📌 **Excel :**
-Microsoft Excel was used for initial data preprocessing and quick checks. It was also used to validate key statistical summaries and create pivot tables for exploratory review.
+ - ### 📌 **Excel :** Microsoft Excel was used for initial data preprocessing and quick checks. It was also used to validate key statistical summaries and create pivot tables for exploratory review.
 
-## 📌 **Python :**
-Used for data cleaning, manipulation, and exploratory data analysis (EDA). Libraries such as `Pandas`, `NumPy`, `Matplotlib`, and `Seaborn` were employed to uncover patterns and prepare data for visualization.
+ - ### 📌 **Python :** Used for data cleaning, manipulation, and exploratory data analysis (EDA). Libraries such as `Pandas`, `NumPy`, `Matplotlib`, and `Seaborn` were employed to uncover patterns and prepare data for visualization.
 
-## 📌 **Power BI :**
-Power BI was used to create **interactive dashboards** that made the insights easily digestible for stakeholders. The tool allowed for dynamic filtering, storytelling, and visual summaries of complex datasets.
+ - ### 📌 **Power BI :** Power BI was used to create **interactive dashboards** that made the insights easily digestible for stakeholders. The tool allowed for dynamic filtering, storytelling, and visual summaries of complex datasets.
 
 
-## 📌 **MySQL:**
-If SQL was used in your project: SQL queries were used to extract meaningful segments of data, group and filter responses based on categorical variables, and structure the data for analysis and visualization.
+ - ### 📌 **MySQL:** MySQL queries were used to extract meaningful segments of data, group and filter responses based on categorical variables, and structure the data for analysis and visualization.
 
 ------
 
@@ -141,7 +137,7 @@ Before analyzing the Career_Aspirations dataset, it’s essential to clean and p
   **Data → Text to Columns → Delimited (e.g., comma, tab) → Finish**
 - Example: Split combined columns like `Date/Time` into separate `Date` and `Time` fields.
 
----
+
 
 #### ✅ 2. **Find & Replace**
 
@@ -154,7 +150,7 @@ Before analyzing the Career_Aspirations dataset, it’s essential to clean and p
   - Replace `self-sponser` with `self-sponsor`
   - Replace `Closet Carrer to Aspirational Job` with `Closest Career to Aspirational Job`
 
----
+
 
 #### ✅ 3. **IF Statements**
 - Use `IF()` formulas to create logical flags or fix inconsistent data.
@@ -168,7 +164,7 @@ Before analyzing the Career_Aspirations dataset, it’s essential to clean and p
     =IF(B2<20000, "Low", "Acceptable")
     ```
 
----
+
 
 #### ✅ 4. **Changing Data Types**
 - Ensure correct formats:
@@ -181,7 +177,7 @@ Before analyzing the Career_Aspirations dataset, it’s essential to clean and p
       or manually input average values.
   - **Yes/Maybe/No** columns → Convert to standardized ENUM-like formats if needed.
 
----
+
 
 #### ✅ 5. **Trimming Extra Spaces**
 - Use `TRIM()` to clean up entries:
@@ -189,7 +185,7 @@ Before analyzing the Career_Aspirations dataset, it’s essential to clean and p
   =TRIM(A2)
   ```
 
----
+
 
 #### ✅ 6. **Standardizing Values**
 - Ensure consistent casing (e.g., "Hybrid" vs "hybrid")
@@ -198,11 +194,13 @@ Before analyzing the Career_Aspirations dataset, it’s essential to clean and p
   =PROPER(A2)
   ```
 
----
+
 
 #### ✅ 7. **Remove Duplicates**
 - Use **Data → Remove Duplicates** to ensure unique responses, especially if email IDs are present.
 
+
+---- 
 
 
 ## 🔍 **4. Exploratory Data Analysis (EDA) using Excel:**
@@ -210,18 +208,36 @@ Before analyzing the Career_Aspirations dataset, it’s essential to clean and p
 With the cleaned dataset in place, I used Excel to perform exploratory analysis. The goal was to understand the distribution and structure of the data before deeper analysis.
 
 
-Use SQL querying to answer given business questions. Provide queries to business questions and deliver insights.
 
 **1. What industries are Gen-Z most interested in pursuing careers in?**
 
+### **Pivot Table :**
+![Image](https://github.com/user-attachments/assets/f733ab46-3145-4d6e-a72e-b37657721b5b)
+
 **2. What are the top factors influencing Gen-Z’s career choices?**
+
+### **Pivot Table :**
+![Image](https://github.com/user-attachments/assets/af92f088-2e78-4112-8867-63490a3a017c)
+
 
 **3. What is the desired work environment for Gen-Z? (e.g., remote, hybrid, in-office)**
 
+### **Pivot Table :**
+![Image](https://github.com/user-attachments/assets/7285f2af-5bd2-4bf0-9e74-971d00e41ad6)
+
 **4. How do financial goals, such as salary and benefits, impact career aspirations among Gen-Z?**
+
+### **Pivot Table :**
+![Image](https://github.com/user-attachments/assets/dfc5b92a-b1c2-4103-bb1e-32db1f87204b)
 
 **5. What role do personal values and social impact play in career choices for Gen-Z?**
 
+
+### **Pivot Table :**
+![Image](https://github.com/user-attachments/assets/0761774d-3c11-4145-8290-423a160ca1e1)
+
+
+-----
 
 
 ## 🧮 **5. Data Analysis using SQL :**
@@ -299,8 +315,63 @@ An executive summary dashboard was developed in Excel, aimed at non-technical st
 ## **Excel Dashboard :**
 
 
+### **Screenshots :**
+---
+![Image](https://github.com/user-attachments/assets/b55c1862-af8b-4131-8f94-ecee86c9e472)
+
+![Image](https://github.com/user-attachments/assets/ae6511b0-4783-481a-816b-edd7aac6f1d5)
 
 ---
+### **Insights (Excel Dashboards):**
+
+
+
+### 1. **What industries are Gen-Z most interested in pursuing careers in?**
+
+✅ **Insights:**
+- **Top Interests (Male):** Data Analysis Insights (3957), Designer (3678), Business Operations (3498), and Project/Product Management (3456).
+- **Top Interests (Female):** Designer (3180), Data Analysis Insights (2760), Business Operations (2397), and Project/Product Management (2208).
+- **Combined Insight:** Both male and female Gen-Z respondents show a strong preference for creative and analytical fields like **Design**, **Data Analysis**, and **Project Management**. However, **Design ranks #1 for females**, while **Data Analysis ranks #1 for males**.
+
+
+
+### 2. **What are the top factors influencing Gen-Z’s career choices?**
+
+✅ **Insights:**
+- **Top Influencer (Both Genders):** **Parents** have the most significant impact (Male: 11,586 | Female: 7,872).
+- **Other Key Influences:** Social Media, Career Influencers, and Peers follow behind Parents for both groups.
+- **Combined Insight:** While **Parents remain the strongest influence** across genders, **Social Media and Career Influencers** also play a substantial role, particularly for **males**, where influence increases more steeply across those categories.
+
+
+
+### 3. **What is the desired work environment for Gen-Z? (e.g., remote, hybrid, in-office)**
+
+✅ **Insights:**
+- **Hybrid is most preferred** by both genders (Male: 15,948 | Female: 10,308).
+- **Fully Remote is equally preferred** by both genders (33% each).
+- **On-site is the least preferred** (Male: 6156 | Female: 4692).
+- **Combined Insight:** A **hybrid setup is the most desired**, suggesting Gen-Z values flexibility. However, the strong preference for **remote options (~1/3 of each group)** indicates a shift toward digital work culture across genders.
+
+
+### 4. **How do financial goals, such as salary and benefits, impact career aspirations among Gen-Z?**
+
+✅ **Insights:**
+- **Higher Salary Expectations:** Fields like **Data Analysis, Design, and Business Operations** show **consistent salary growth** over 3–5 years for both genders.
+- **Gender Comparison:** Males have higher participant counts expecting strong salary growth across more roles, especially in tech and management.
+- **Combined Insight:** **Salary is a major factor**—careers with higher financial potential attract more interest. **Females show increased preference in roles like Design and Content Creation**, which may reflect balancing passion with pay.
+
+
+
+### 5. **What role do personal values and social impact play in career choices for Gen-Z?**
+
+✅ **Insights:**
+- **Indirect Indicators:** High influence from **Parents, Peers, and Career Influencers** suggests decisions are **value-driven**, shaped by close social circles.
+- **Job Retention vs. Work Environment:** Females are **more likely to remain in hybrid roles** (Yes: 3708) compared to Fully Remote or On-site, implying a preference for balanced lifestyles.
+- **Combined Insight:** Gen-Z, especially females, **prioritize alignment with personal values and flexibility**. The role of **social guidance** from parents and influencers also reflects a **community-driven** approach to career decisions.
+
+---
+
+
 
 ### 📈 7. Functional Dashboard in Power BI
 
