@@ -86,6 +86,7 @@ During my **Data Analyst Internship at KultureHire**, I have contributed to vari
 This internship has enhanced my skills in **data collection, analysis, visualization, and reporting**, equipping me with hands-on experience in executing end-to-end data projects.  
 
 
+
 ---
 
 # **🔄 Project Workflow (Detailed Version) :**
@@ -93,6 +94,9 @@ This internship has enhanced my skills in **data collection, analysis, visualiza
 This project was structured around a clearly defined workflow that moved through each phase of the data analytics lifecycle. From identifying the problem to communicating final results, every step was carefully designed to ensure high-quality analysis and actionable insights for stakeholders. Here's an in-depth breakdown of each stage:
 
 
+![Image](https://github.com/user-attachments/assets/0f31b77b-4e8a-4543-8da7-e6eb324f365a)
+
+-----
 
 ## 🧩 **1. Problem Statement Documentation :**
 
