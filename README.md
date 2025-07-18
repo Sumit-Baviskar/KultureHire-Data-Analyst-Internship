@@ -403,6 +403,3 @@ To wrap up the project, I developed a presentation that summarized the entire pr
 
 The project was shared with my mentors at **KultureHire** and peers for feedback and discussion, reinforcing the value of data-driven storytelling.
 
----
-
-Would you like me to help design a **project diagram or Gantt-style timeline**, or structure this as a full `README.md` for your GitHub repo?
